@@ -67,18 +67,6 @@ Hello AI World can be run completely onboard your Jetson, including inferencing 
 * [Image Manipulation with CUDA](docs/aux-image.md)
 * [Deep Learning Nodes for ROS/ROS2](https://github.com/dusty-nv/ros_deep_learning)
 
-## Video Walkthroughs
-
-Below are screencasts of Hello AI World that were recorded for the [Jetson AI Certification](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs) course:
-
-| Description                                                                                                                                                                                                                                                                                                        | Video                                                                                                                                                                                                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://www.youtube.com/watch?v=QXIwdsyK7Rw&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=9" target="_blank">**Hello AI World Setup**</a><br/>Download and run the Hello AI World container on Jetson Nano, test your camera feed, and see how to stream it over the network via RTP.                                     | <a href="https://www.youtube.com/watch?v=QXIwdsyK7Rw&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=9" target="_blank"><img src=https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/thumbnail_setup.jpg width="750"></a>               |
-| <a href="https://www.youtube.com/watch?v=QatH8iF0Efk&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=10" target="_blank">**Image Classification Inference**</a><br/>Code your own Python program for image classification using Jetson Nano and deep learning, then experiment with realtime classification on a live camera stream. | <a href="https://www.youtube.com/watch?v=QatH8iF0Efk&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=10" target="_blank"><img src=https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/thumbnail_imagenet.jpg width="750"></a>           |
-| <a href="https://www.youtube.com/watch?v=sN6aT9TpltU&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=11" target="_blank">**Training Image Classification Models**</a><br/>Learn how to train image classification models with PyTorch onboard Jetson Nano, and collect your own classification datasets to create custom models.     | <a href="https://www.youtube.com/watch?v=sN6aT9TpltU&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=11" target="_blank"><img src=https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/thumbnail_imagenet_training.jpg width="750"></a>  |
-| <a href="https://www.youtube.com/watch?v=obt60r8ZeB0&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=12" target="_blank">**Object Detection Inference**</a><br/>Code your own Python program for object detection using Jetson Nano and deep learning, then experiment with realtime detection on a live camera stream.              | <a href="https://www.youtube.com/watch?v=obt60r8ZeB0&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=12" target="_blank"><img src=https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/thumbnail_detectnet.jpg width="750"></a>          |
-| <a href="https://www.youtube.com/watch?v=2XMkPW_sIGg&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=13" target="_blank">**Training Object Detection Models**</a><br/>Learn how to train object detection models with PyTorch onboard Jetson Nano, and collect your own detection datasets to create custom models.                  | <a href="https://www.youtube.com/watch?v=2XMkPW_sIGg&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=13" target="_blank"><img src=https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/thumbnail_detectnet_training.jpg width="750"></a> |
-| <a href="https://www.youtube.com/watch?v=AQhkMLaB_fY&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=14" target="_blank">**Semantic Segmentation**</a><br/>Experiment with fully-convolutional semantic segmentation networks on Jetson Nano, and run realtime segmentation on a live camera stream.                                 | <a href="https://www.youtube.com/watch?v=AQhkMLaB_fY&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=14" target="_blank"><img src=https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/thumbnail_segnet.jpg width="750"></a>             |
 
 ## API Reference
 
@@ -220,52 +208,7 @@ In this area, links and resources for deep learning are listed:
 * [Jetson eLinux Wiki](https://www.eLinux.org/Jetson) - Jetson eLinux Wiki
 
 
-## Two Days to a Demo (DIGITS)
 
-> **note:** the DIGITS/Caffe tutorial from below is deprecated.  It's recommended to follow the [Transfer Learning with PyTorch](#training) tutorial from Hello AI World.
- 
-<details>
-<summary>Expand this section to see original DIGITS tutorial (deprecated)</summary>
-<br/>
-The DIGITS tutorial includes training DNN's in the cloud or PC, and inference on the Jetson with TensorRT, and can take roughly two days or more depending on system setup, downloading the datasets, and the training speed of your GPU.
-
-* [DIGITS Workflow](docs/digits-workflow.md) 
-* [DIGITS System Setup](docs/digits-setup.md)
-* [Setting up Jetson with JetPack](docs/jetpack-setup.md)
-* [Building the Project from Source](docs/building-repo.md)
-* [Classifying Images with ImageNet](docs/imagenet-console.md)
-	* [Using the Console Program on Jetson](docs/imagenet-console.md#using-the-console-program-on-jetson)
-	* [Coding Your Own Image Recognition Program](docs/imagenet-example.md)
-	* [Running the Live Camera Recognition Demo](docs/imagenet-camera.md)
-	* [Re-Training the Network with DIGITS](docs/imagenet-training.md)
-	* [Downloading Image Recognition Dataset](docs/imagenet-training.md#downloading-image-recognition-dataset)
-	* [Customizing the Object Classes](docs/imagenet-training.md#customizing-the-object-classes)
-	* [Importing Classification Dataset into DIGITS](docs/imagenet-training.md#importing-classification-dataset-into-digits)
-	* [Creating Image Classification Model with DIGITS](docs/imagenet-training.md#creating-image-classification-model-with-digits)
-	* [Testing Classification Model in DIGITS](docs/imagenet-training.md#testing-classification-model-in-digits)
-	* [Downloading Model Snapshot to Jetson](docs/imagenet-snapshot.md)
-	* [Loading Custom Models on Jetson](docs/imagenet-custom.md)
-* [Locating Objects with DetectNet](docs/detectnet-training.md)
-	* [Detection Data Formatting in DIGITS](docs/detectnet-training.md#detection-data-formatting-in-digits)
-	* [Downloading the Detection Dataset](docs/detectnet-training.md#downloading-the-detection-dataset)
-	* [Importing the Detection Dataset into DIGITS](docs/detectnet-training.md#importing-the-detection-dataset-into-digits)
-	* [Creating DetectNet Model with DIGITS](docs/detectnet-training.md#creating-detectnet-model-with-digits)
-	* [Testing DetectNet Model Inference in DIGITS](docs/detectnet-training.md#testing-detectnet-model-inference-in-digits)
-	* [Downloading the Detection Model to Jetson](docs/detectnet-snapshot.md)
-	* [DetectNet Patches for TensorRT](docs/detectnet-snapshot.md#detectnet-patches-for-tensorrt)
-	* [Detecting Objects from the Command Line](docs/detectnet-console.md)
-	* [Multi-class Object Detection Models](docs/detectnet-console.md#multi-class-object-detection-models)
-	* [Running the Live Camera Detection Demo on Jetson](docs/detectnet-camera.md)
-* [Semantic Segmentation with SegNet](docs/segnet-dataset.md)
-	* [Downloading Aerial Drone Dataset](docs/segnet-dataset.md#downloading-aerial-drone-dataset)
-	* [Importing the Aerial Dataset into DIGITS](docs/segnet-dataset.md#importing-the-aerial-dataset-into-digits)
-	* [Generating Pretrained FCN-Alexnet](docs/segnet-pretrained.md)
-	* [Training FCN-Alexnet with DIGITS](docs/segnet-training.md)
-	* [Testing Inference Model in DIGITS](docs/segnet-training.md#testing-inference-model-in-digits)
-	* [FCN-Alexnet Patches for TensorRT](docs/segnet-patches.md)
-	* [Running Segmentation Models on Jetson](docs/segnet-console.md)
-
-</details>
 
 ##
 <p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="#deploying-deep-learning"><sup>Table of Contents</sup></a></p>
