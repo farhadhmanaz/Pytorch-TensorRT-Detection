@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="pytorch-collect.md">Back</a> | <a href="pytorch-collect-detection.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Transfer Learning - Object Detection</sup></s></p>
+
 
 # Re-training SSD-Mobilenet
 
