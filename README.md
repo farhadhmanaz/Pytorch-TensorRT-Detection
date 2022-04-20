@@ -1,11 +1,11 @@
-# Deploying Deep Learning
-Welcome to our instructional guide for inference and realtime [DNN vision](#api-reference) library for NVIDIA **[Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier/AGX Orin](http://www.nvidia.com/object/embedded-systems.html)**.
+# Deep Learning - PyTorch - TensoRT Custom Image Processing
+Welcome to my instructional guide for inference and realtime [DNN vision](#api-reference) library for NVIDIA **[Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier/AGX Orin](http://www.nvidia.com/object/embedded-systems.html)**.
 
 This repo uses NVIDIA **[TensorRT](https://developer.nvidia.com/tensorrt)** for efficiently deploying neural networks onto the embedded Jetson platform, improving performance and power efficiency using graph optimizations, kernel fusion, and FP16/INT8 precision.
 
 Vision primitives, such as [`imageNet`](docs/imagenet-console-2.md) for image recognition, [`detectNet`](docs/detectnet-console-2.md) for object detection, [`segNet`](docs/segnet-console-2.md) for semantic segmentation, and [`poseNet`](docs/posenet.md) for pose estimation inherit from the shared [`tensorNet`](c/tensorNet.h) object.  Examples are provided for streaming from live camera feed and processing images.  See the **[API Reference](#api-reference)** section for detailed reference documentation of the C++ and Python libraries. 
 
-<img src="https://github.com/dusty-nv/jetson-inference/raw/dev/docs/images/deep-vision-primitives.jpg">
+#<img src="https://github.com/dusty-nv/jetson-inference/raw/dev/docs/images/deep-vision-primitives.jpg">
 
 Follow the [Hello AI World](#hello-ai-world) tutorial for running inference and transfer learning onboard your Jetson, including collecting your own datasets and training your own models.  It covers image classification, object detection, semantic segmentation, pose estimation, and mono depth.
 
