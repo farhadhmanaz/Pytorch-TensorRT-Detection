@@ -1,4 +1,4 @@
-# PyTorch - TensoRT Custom Image Processing
+# PyTorch - TensorRT Custom Image Processing
 Welcome to my instructional guide for inference and realtime [DNN vision](#api-reference) library for NVIDIA **[Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier/AGX Orin](http://www.nvidia.com/object/embedded-systems.html)**.
 
 This repo uses NVIDIA **[TensorRT](https://developer.nvidia.com/tensorrt)** for efficiently deploying neural networks onto the embedded Jetson platform, improving performance and power efficiency using graph optimizations, kernel fusion, and FP16/INT8 precision.
