@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="detectnet-example-2.md">Back</a> | <a href="segnet-camera-2.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Semantic Segmentation</sup></s></p>
+
 
 # Semantic Segmentation with SegNet
 The next deep learning capability we'll cover in this tutorial is **semantic segmentation**.  Semantic segmentation is based on image recognition, except the classifications occur at the pixel level as opposed to the entire image.  This is accomplished by *convolutionalizing* a pre-trained image recognition backbone, which transforms the model into a [Fully Convolutional Network (FCN)](https://arxiv.org/abs/1605.06211) capable of per-pixel labeling.  Especially useful for environmental perception, segmentation yields dense per-pixel classifications of many different potential objects per scene, including scene foregrounds and backgrounds.
@@ -188,4 +185,4 @@ For more info about loading/saving sequences of images, see the [Camera Streamin
 <p align="right">Next | <b><a href="segnet-camera-2.md">Running the Live Camera Segmentation Demo</a></b>
 <br/>
 Back | <b><a href="detectnet-example-2.md">Coding Your Own Object Detection Program</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
