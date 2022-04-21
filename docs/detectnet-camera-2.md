@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="detectnet-console-2.md">Back</a> | <a href="detectnet-example-2.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Object Detection</sup></p>
+
 
 # Running the Live Camera Detection Demo
 
@@ -62,4 +59,4 @@ Next, we'll cover creating the code for a camera detection app in Python.
 <p align="right">Next | <b><a href="detectnet-example-2.md">Coding Your Own Object Detection Program</a></b>
 <br/>
 Back | <b><a href="detectnet-console-2.md">Detecting Objects from Images</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
