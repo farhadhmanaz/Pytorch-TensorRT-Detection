@@ -209,6 +209,4 @@ In this area, links and resources for deep learning are listed:
 
 
 
-##
-<p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="#deploying-deep-learning"><sup>Table of Contents</sup></a></p>
 
