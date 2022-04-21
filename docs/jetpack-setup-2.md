@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="../README.md#hello-ai-world">Back</a> | <a href="aux-docker.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>System Setup</sup></p> 
+
 
 # Setting up Jetson with JetPack
 
@@ -50,4 +47,4 @@ Using the container is recommended initially to get up & running as fast as poss
 <p align="right">Next | <b><a href="building-repo-2.md">Building the Project from Source</a></b>
 <br/>
 Back | <b><a href="../README.md#hello-ai-world">Overview</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
