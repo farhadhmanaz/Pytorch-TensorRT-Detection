@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="segnet-console-2.md">Back</a> | <a href="posenet.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Semantic Segmentation</sup></s></p>
+
 
 # Running the Live Camera Segmentation Demo
 The [`segnet.cpp`](../examples/segnet/segnet.cpp) / [`segnet.py`](../python/examples/segnet.py) sample that we used previously can also be used for realtime camera streaming.  The types of supported cameras include:
@@ -83,4 +80,4 @@ Feel free to experiment with the different models and resolutions for indoor and
 <p align="right">Next | <b><a href="posenet.md">Pose Estimation with PoseNet</a></b>
 <br/>
 Back | <b><a href="segnet-console-2.md">Segmenting Images from the Command Line</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
