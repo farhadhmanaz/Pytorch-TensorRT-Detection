@@ -195,4 +195,4 @@ In the following example, we'll train another model on a datset of plants and tr
 <p align="right">Next | <b><a href="pytorch-plants.md">Re-training on the PlantCLEF Dataset</a></b>
 <br/>
 Back | <b><a href="pytorch-transfer-learning.md">Transfer Learning with PyTorch</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
