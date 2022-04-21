@@ -139,4 +139,4 @@ Next, we're going to train our own object detection models with PyTorch.
 <p align="right">Next | <b><a href="pytorch-ssd.md">Re-training SSD-Mobilenet</a></b>
 <br/>
 Back | <b><a href="pytorch-plants.md">Re-training on the PlantCLEF Dataset</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
