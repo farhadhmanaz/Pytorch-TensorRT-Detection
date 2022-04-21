@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="detectnet-camera-2.md">Back</a> | <a href="segnet-console-2.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Object Detection</sup></p>
+
 
 # Coding Your Own Object Detection Program
 
@@ -165,4 +162,4 @@ To tweak the results, you can try changing the model that's loaded along with th
 <p align="right">Next | <b><a href="segnet-console-2.md">Semantic Segmentation with SegNet</a></b>
 <br/>
 Back | <b><a href="detectnet-camera-2.md">Running the Live Camera Detection Demo</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
