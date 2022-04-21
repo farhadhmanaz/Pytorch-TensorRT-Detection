@@ -1,7 +1,3 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="imagenet-example-python-2.md">Back</a> | <a href="imagenet-camera-2.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Image Recognition</sup></p>  
 
 # Coding Your Own Image Recognition Program (C++)
 In the previous step, we ran an application that came with the jetson-inference repo.  
@@ -336,4 +332,4 @@ This is the conclusion of this section of the tutorial.  Next, we'll classify a 
 <p align="right">Next | <b><a href="imagenet-camera-2.md">Running the Live Camera Recognition Demo</a></b>
 <br/>
 Back | <b><a href="imagenet-example-python-2.md">Coding Your Own Image Recognition Program (Python)</a></b></p>
-<p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
