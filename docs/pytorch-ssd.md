@@ -193,4 +193,4 @@ For more details about other camera/video sources, please see [Camera Streaming 
 <p align="right">Next | <b><a href="pytorch-collect-detection.md">Collecting your own Detection Datasets</a></b>
 <br/>
 Back | <b><a href="pytorch-collect.md">Collecting your own Classification Datasets</a></p>
-</b><p align="center"><sup>© 2016-2020 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
