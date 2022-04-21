@@ -118,4 +118,4 @@ Next we encourage you to experiment and apply what you've learned to other proje
 For more examples to inspire your creativity, see the **[Jetson Projects](https://developer.nvidia.com/embedded/community/jetson-projects)** page.  Good luck and have fun!
 
 <p align="right">Back | <b><a href="pytorch-ssd.md">Re-training SSD-Mobilenet</a></p>
-</b><p align="center"><sup>© 2016-2020 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
