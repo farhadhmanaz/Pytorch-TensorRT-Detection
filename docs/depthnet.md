@@ -1,7 +1,4 @@
-<img src="https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg" width="100%">
-<p align="right"><sup><a href="posenet.md">Back</a> | <a href="pytorch-transfer-learning.md">Next</a> | </sup><a href="../README.md#hello-ai-world"><sup>Contents</sup></a>
-<br/>
-<sup>Mono Depth</sup></s></p>
+
 
 # Monocular Depth with DepthNet
 Depth sensing is useful for tasks such as mapping, navigation and obstacle detection, however it historically required a stereo camera or RGB-D camera.  There are now DNNs that are able to infer relative depth from a single monocular image (aka mono depth).  See the [MIT FastDepth](https://arxiv.org/abs/1903.03273) paper for one such approach to accomplishing this using Fully-Convolutional Networks (FCNs).
@@ -151,4 +148,4 @@ Next, we're going to introduce the concepts of [Transfer Learning](pytorch-trans
 <p align="right">Next | <b><a href="pytorch-transfer-learning.md">Transfer Learning with PyTorch</a></b>
 <br/>
 Back | <b><a href="posenet.md">Pose Estimation with PoseNet</a></p>
-</b><p align="center"><sup>© 2016-2021 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
