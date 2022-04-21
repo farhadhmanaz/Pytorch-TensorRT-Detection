@@ -115,4 +115,4 @@ This table contains a summary of the datasets and their associated training time
 <p align="right">Next | <b><a href="pytorch-cat-dog.md">Re-training on the Cat/Dog Dataset</a></b>
 <br/>
 Back | <b><a href="depthnet.md">Monocular Depth with DepthNet</a></p>
-</b><p align="center"><sup>© 2016-2019 NVIDIA | </sup><a href="../README.md#hello-ai-world"><sup>Table of Contents</sup></a></p>
+
